@@ -75,15 +75,16 @@ void display(void) {
 	glTexCoord2f(0.0f, -0.3f);
 	glVertex3f(-1.0f, 1.0f, 1.0f);
 	
-	// Face posterior
-	// glTexCoord2f(1.0f, 0.0f);
-	// glVertex3f(-1.0f, -1.0f, -1.0f);
-	// glTexCoord2f(1.0f, 1.0f);
-	// glVertex3f(-1.0f, 1.0f, -1.0f);
-	// glTexCoord2f(0.0f, 1.0f);
-	// glVertex3f(1.0f, 1.0f, -1.0f);
-	// glTexCoord2f(0.0f, 0.0f);
-	// glVertex3f(1.0f, -1.0f, -1.0f);
+	 //Face posterior
+	 glTexCoord2f(0.0f, 0.0f);
+	 glVertex3f(-1.0f, -1.0f, -1.0f);
+	 glTexCoord2f(0.5f, 0.0f);
+	 glVertex3f(-1.0f, 1.0f, -1.0f);
+	 glTexCoord2f(0.5f, -0.3f);
+   	 glVertex3f(1.0f, 1.0f, -1.0f);
+	 glTexCoord2f(0.0f, -0.3f);
+	 glVertex3f(1.0f, -1.0f, -1.0f);
+	 
 	// Face superior
 	// glTexCoord2f(0.0f, 1.0f);
 	// glVertex3f(-1.0f, 1.0f, -1.0f);
